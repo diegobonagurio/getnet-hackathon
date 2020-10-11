@@ -1,7 +1,7 @@
 # getnet-hackathon
 Getnet Hackathon
 
-# Tá Fácil 
+# TÁ FÁCIL 
 
  * [Sobre](#Sobre)
    * [Como usar](#como-usar)
@@ -15,7 +15,7 @@ O aplicativo TÁ FÁCIL vem para suprir a carência de ferramentas de gestão fa
 
 ## Como usar
 
-Acesse este [Link](https://youtu.be/kofisOOmkIg) e saiba como usar o aplicativo Tá Fácil.
+Acesse este [Link](https://youtu.be/kofisOOmkIg) e saiba como usar o aplicativo TÁ FÁCIL.
 
 
 ## Tecnologias
