@@ -11,7 +11,7 @@ Getnet Hackathon
 
 ## Sobre
 
-Aplicativo que promove o encontro entre prestadores de serviços (de qualquer segmento) e seus potenciais clientes. O AutoBot usa a API da zenvia para agilizar e descomplicar a comunicação do prestador de serviço e seus clientes. Acesse o [Link](https://www.youtube.com/watch?v=YAPXlRiD9cE&feature=youtu.be) para saber mais sobre o AutoBot.
+O aplicativo TÁ FÁCIL vem para suprir a carência de ferramentas de gestão facilitadas porque apresenta um fluxo de caixa simples, pessoal, conectado à máquina de recebimento da Getnet e pensado especialmente para o MEI. Acesse o [Link](https://www.youtube.com/watch?v=YAPXlRiD9cE&feature=youtu.be) para saber mais sobre o aplicativo Tá Fácil.
 
 ## Como usar
 
