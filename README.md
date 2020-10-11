@@ -28,7 +28,3 @@ Acesse este [Link](https://youtu.be/kofisOOmkIg) e saiba como usar o aplicativo 
 
 ## Autores do Projeto
 
-[![Linkedin Badge](https://img.shields.io/badge/-Andréa-red?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andr%C3%A9a-cristina-
-biavatti-79811a31/)](https://www.linkedin.com/in/andr%C3%A9a-cristina-biavatti-79811a31/) [![Linkedin Badge](https://img.shields.io/badge/-Diego-black?style=flat-
-square&logo=Linkedin&logoColor=white&link=https://br.linkedin.com/in/diego-ciuldim-bonagurio-a42940196)](https://br.linkedin.com/in/diego-ciuldim-bonagurio-
-a42940196) 
