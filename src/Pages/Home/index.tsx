@@ -1,6 +1,6 @@
 import React from 'react';
 import {useNavigation} from '@react-navigation/native';
-import {Image} from 'react-native';
+import { Image } from 'react-native';
 
 import {
   Container,
@@ -25,10 +25,21 @@ import {
   ContainerButtonView,
   ContainerSalesView,
   ContainerPaymentView,
+  TextView,
+  ContainerCard,
+  ContainerText,
+  ContainerTitle,
+  TitleDesc,
+  ContainerTips,
+  TextTips,
+  BackImage,
+  View,
+  ViewChild
 } from './styles';
 
 import logo from '../../assets/logo.png';
-
+import join from '../../assets/join.png';
+import iconCard from '../../assets/iconCard.png';
 
 const Home: React.FC = () => {
   const {navigate} = useNavigation();
@@ -52,6 +63,7 @@ const Home: React.FC = () => {
         
           
       </ContainerDados>
+      <View />
 
       <ContainerInfos>
 
@@ -60,54 +72,54 @@ const Home: React.FC = () => {
             Saldo
           </Balance>
 
-          <Value><Coin>R$</Coin>2500</Value>
+          <Value><Coin>R$</Coin>5.315,56</Value>
         </ContainerBalance>
 
-        <ContainerSales>
-          <ContainerButtonView>
-            <ButtonView onPress={() => navigate('Sales')}>
-              <ButtonDescription>Consultar</ButtonDescription>
-            </ButtonView>
+        <ButtonView onPress={() => navigate('Sales')}>
+          <ContainerSales>
+            <ContainerButtonView> 
+              <DescriptionView>
+                Consultar minhas vendas do dia
+              </DescriptionView>
+              <ContainerSalesView>
+                <ValueSales>R$ 4.468,08</ValueSales>
+              </ContainerSalesView>
+            </ContainerButtonView>
+            <Image source={join} />
+          </ContainerSales>
+        </ButtonView>
 
-            <DescriptionView>
-              Vendas do dia
-            </DescriptionView>
-          </ContainerButtonView>
-
-          <ContainerSalesView>
-            <MySales>
-              Minhas Vendas
-            </MySales>
-
-            <ValueSales>
-              R$358,52
-            </ValueSales>
-          </ContainerSalesView>
-          
-        </ContainerSales>
-
-        <ContainerPayments>
-          <ContainerButtonView>
-            <ButtonView onPress={() => navigate('Payment')}>
-              <ButtonDescription>Consultar</ButtonDescription>
-            </ButtonView>
-
-            <DescriptionView>
-              Pagamentos do dia
-            </DescriptionView>
-          </ContainerButtonView>
-          
-          <ContainerPaymentView>
-            <MyPayment>
-              Meus Pagamentos
-            </MyPayment>
-
-            <ValueSales>
-              R$358,52
-            </ValueSales>
-          </ContainerPaymentView>
-        </ContainerPayments>
+        <ButtonView onPress={() => navigate('Payment')}>
+          <ContainerPayments>
+            <ContainerButtonView>
+              <DescriptionView>
+                Consultar meus pagamentos do dia
+              </DescriptionView>
+              <ContainerPaymentView>
+                <ValueSales>R$ 152,52 </ValueSales>
+              </ContainerPaymentView>
+            </ContainerButtonView>
+            <Image source={join} /> 
+          </ContainerPayments>
+        </ButtonView>
       </ContainerInfos>
+
+      <ContainerCard>
+        <ContainerText>
+
+          <ContainerTitle>
+            <TitleDesc>O que é fluxo de caixa?</TitleDesc>
+          </ContainerTitle>
+
+          <ContainerTips>
+            <TextTips>Controle do dinheiro que entra e{"\n"} do dinheiro que sai.</TextTips>
+          </ContainerTips>
+        </ContainerText>
+
+        <BackImage>
+          <Image source={iconCard} />
+        </BackImage>
+      </ContainerCard>
     </Container>
   );
 };

@@ -1,13 +1,29 @@
 import styled from 'styled-components/native';
 import { RectButton } from 'react-native-gesture-handler';
 
+
+
 export const Container = styled.View`
   background: #fff;
 `;
 
+export const BackImage = styled.View`
+  position: relative;
+  left: -23px;
+  top: 33px;
+  height: 0px;
+`;
+
+export const BackImagePay = styled.View`
+  position: relative;
+  left: -23px;
+  top: 23px;
+  height: 0px;
+`;
+
 export const ContainerInfos = styled.View`
   height: 100%;
-  padding: 30px 20px;
+  padding: 0 20px;
   border-radius: 50px;
 `;
 
@@ -41,12 +57,10 @@ export const Value = styled.Text`
 export const ValueCoin = styled.Text`
   font-family: 'OpenSans-SemiBold';
   font-size: 24px;
-  letter-spacing: 2px;
   color: #8c8c8c;
 `;
 
 export const ContainerSales = styled.View`
-  background: #FFF;
   border-radius: 15px;
   border: 2px solid rgba(0, 0, 0, 0.15);
   padding: 10px 20px;
@@ -107,7 +121,6 @@ export const ValueSales = styled.Text`
 `;
 
 export const ContainerPayments = styled.View`
-  background: #FFF;
   border-radius: 15px;
   border: 2px solid rgba(0, 0, 0, 0.15);
   padding: 10px 20px;
@@ -132,7 +145,13 @@ export const ContainerButtonAllMySales = styled.View`
 
 `;
 
-
+export const View = styled.View`
+  background-color: #fff;
+  height: 42px;
+  border-radius: 15px;
+  margin-bottom: -12px;
+  margin-top: -12px;
+`;
 
 export const MyPayment = styled.Text`
   font-family: 'OpenSans-Regular';

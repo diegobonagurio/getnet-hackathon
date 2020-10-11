@@ -28,7 +28,7 @@ const CreatedSales: React.FC = () => {
       <ContainerText>
         <TextSucess>Sucesso!</TextSucess>
           <TextDescription>
-            Deu tudo certo com o laçamento {'\n'} da sua venda
+            Deu tudo certo com o lançamento {'\n'} da sua venda
           </TextDescription>
       </ContainerText>
 

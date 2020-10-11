@@ -26,6 +26,9 @@ ContainerValueCoin,
 ContainerButtons,
 ContainerButtonMySales,
 ContainerButtonAllMySales,
+BackImage,
+BackImagePay,
+View
 } from './styles';
 
 import Header from '../../components/Header';
@@ -43,17 +46,25 @@ const Sales: React.FC = () => {
 
   return(
     <Container>
-      <Header title="Minhas vendas" />
+      <Header title="Minhas vendas do dia" />
+
+      <View />
+      
 
       <ContainerInfos>
 
+          
         <ContainerBalance>
           <Balance>
-            Minhas vendas do dia
+            Total das minhas vendas do dia
           </Balance>
 
-          <Value><Coin>R$</Coin>741,00</Value>
+          <Value><Coin>R$</Coin>4.468,08</Value>
         </ContainerBalance>
+
+        <BackImage>
+          <Image source={backgroundImage} style={{height: 111, borderRadius: 10}}/>
+        </BackImage>
 
         <ContainerSales>
           <ContainerButtonView>
@@ -62,7 +73,7 @@ const Sales: React.FC = () => {
               com a Getnet{"\n"}
             
               <ContainerValueCoin>
-                <ValueCoin><CoinSales>R$</CoinSales>2500</ValueCoin>
+                <ValueCoin><CoinSales>R$</CoinSales>2.499,50</ValueCoin>
               </ContainerValueCoin>
 
             </ButtonDescription>
@@ -75,14 +86,19 @@ const Sales: React.FC = () => {
               />
             </ContainerImage>
           </ContainerButtonView>
+            
         </ContainerSales>
+
+        <BackImagePay>
+          <Image source={backgroundImage} style={{height: 111, borderRadius: 10}}/>
+        </BackImagePay>
 
         <ContainerPayments>
           <ContainerButtonView>
             <ButtonDescription>
               Total de vendas{'\n'} com outros meios{"\n"}
               <ContainerValueCoin>
-                <ValueCoin><CoinSales>R$</CoinSales>1968,0</ValueCoin>
+                <ValueCoin><CoinSales>R$</CoinSales>1.968,58</ValueCoin>
               </ContainerValueCoin>
             </ButtonDescription>
 
@@ -101,7 +117,7 @@ const Sales: React.FC = () => {
         <ContainerButtons>
           
           <ContainerButtonMySales>
-            <Button name="Lançar outras vendas" fontSize={18} onPress={() => navigate('InputSales')} />
+            <Button name="Lançar nova venda" fontSize={18} onPress={() => navigate('InputSales')} />
           </ContainerButtonMySales>
 
           <ContainerButtonAllMySales>

@@ -6,7 +6,7 @@ export const Container = styled.View`
 
 export const ContainerPayment = styled.View`
   height: 100%;
-  padding: 30px 20px;
+  padding: 0 20px;
   border-radius: 50px;
 `;
 

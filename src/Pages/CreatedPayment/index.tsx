@@ -28,7 +28,7 @@ const CreatedPayment: React.FC = () => {
       <ContainerText>
         <TextSucess>Sucesso!</TextSucess>
           <TextDescription>
-            Deu tudo certo com o laçamento {'\n'} do seu pagamento
+            Deu tudo certo com o lançamento {'\n'} do seu pagamento
           </TextDescription>
       </ContainerText>
 

@@ -14,7 +14,7 @@ export const ContainerDados = styled.View`
   flex-direction: row;
   width: 100%;
   padding: 40px 20px;
-  height: 115px;
+  height: 127px;
   text-align: left;
 `;
 
@@ -40,9 +40,8 @@ export const CNPJ = styled.Text`
 `;
 
 export const ContainerInfos = styled.View`
-  height: 100%;
-  padding: 30px 20px;
-  border
+  padding: 0 20px;
+  background: #fff;
 `;
 
 export const ContainerBalance = styled.View`
@@ -67,14 +66,13 @@ export const Value = styled.Text`
 `;
 
 export const ContainerSales = styled.View`
-  background: #FFF;
+  background: #FF4646;
   border-radius: 15px;
   border: 2px solid rgba(0, 0, 0, 0.15);
   padding: 20px;
   justify-content: space-between;
   flex-direction: row;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  align-items: center;
 `;
 
 
@@ -97,12 +95,14 @@ export const ButtonDescription = styled.Text`
 `;
 
 export const ButtonView = styled(RectButton)`
-
+  margin-top: 30px;
+  margin-bottom: -10px;
 `;
 
 export const DescriptionView = styled.Text`
   font-family: 'OpenSans-SemiBold';
-  font-size: 18px;
+  font-size: 14px;
+  color: #fff;
 `;
 
 export const MySales = styled.Text`
@@ -112,10 +112,11 @@ export const MySales = styled.Text`
 `;
 
 export const ValueSales = styled.Text`
-  text-align: right;
+  text-align: left;
   font-family: 'OpenSans-SemiBold';
-  font-size: 14px;
+  font-size: 20px;
   margin-top: 4px;
+  color: #fff;
 `;
 
 export const ContainerPayments = styled.View`
@@ -125,7 +126,7 @@ export const ContainerPayments = styled.View`
   padding: 20px;
   justify-content: space-between;
   flex-direction: row;
-  margin-bottom: 20px;
+  background: #FF4646;
 `;
 
 export const MyPayment = styled.Text`
@@ -133,3 +134,59 @@ export const MyPayment = styled.Text`
   font-size: 12px;
   color: #8c8c8c;
 `;
+
+export const TextView = styled.View`
+  position: relative;
+  top: -50px;
+`;
+
+export const ContainerCard = styled.View`
+  background: #EFDA1C;
+  align-items: flex-start;
+  margin: 0 20px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 80px;
+  overflow: hidden;
+`;
+
+export const BackImage = styled.View`
+  position: relative;
+  height: 0px;
+  top: -120px;
+  left: -40px;
+`;
+
+export const ContainerText = styled.View`
+`;
+
+export const ContainerTitle = styled.View`
+  
+`;
+
+export const TitleDesc = styled.Text`
+  font-family: 'OpenSans-SemiBold';
+  font-size: 16px;
+  color: #000;
+`;
+
+export const ContainerTips = styled.View`
+  margin-top: 10px;
+  margin-bottom: 20px;
+`;
+
+export const TextTips = styled.Text`
+  font-family: 'OpenSans-Regular';
+  font-size: 14px;
+  color: #000;
+`;
+
+export const View = styled.View`
+  background-color: #fff;
+  height: 42px;
+  border-radius: 15px;
+  margin-bottom: -12px;
+  margin-top: -12px;
+`;
+
+
