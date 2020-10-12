@@ -15,7 +15,7 @@ O aplicativo TÁ FÁCIL vem para suprir a carência de ferramentas de gestão fa
 
 ## Como usar
 
-Acesse este [Link](https://youtu.be/kofisOOmkIg) e saiba como usar o aplicativo TÁ FÁCIL.
+Acesse este [Link](https://www.youtube.com/watch?v=YZyJCT4kk7Y&feature=emb_logo) e saiba como usar o aplicativo TÁ FÁCIL.
 
 
 ## Tecnologias
