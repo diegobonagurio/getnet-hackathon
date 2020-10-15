@@ -1,6 +1,8 @@
 # getnet-hackathon
 Getnet Hackathon
 
+![alt text](https://cdn.dribbble.com/users/2765294/screenshots/14378494/media/e581d45f9f2ddfc377458cfd391b8b9d.png)
+
 # TÁ FÁCIL 
 
  * [Sobre](#Sobre)
